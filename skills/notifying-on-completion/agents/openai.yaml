@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notifying On Completion"
+  short_description: "For requests like \"напиши как закончишь\""
+  default_prompt: "Use this when the user asks to be notified on completion, for example \"напиши как закончишь\". After the work is done and after the final chat message, send notify-send -u critical."
