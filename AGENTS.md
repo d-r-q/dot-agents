@@ -4,8 +4,12 @@
 - If the user message is a question (ends with ? or is clearly interrogative), answer it only.
   Do not create, modify, or stage any files in this case.
 - Chat answers must be at least 2x shorter than your natural default.
-- Prepend every assistant message with a role prefix in the format `<Role>: `.
-  - Use the active role name.
+
+Output template:
+- Normal message: `<Role>: <body>`
+- Message starting with ``` or `<tag>` block:
+  `<Role>:`
+  `<body>`
 
 ## Working with git
 
