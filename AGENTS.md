@@ -3,6 +3,8 @@
 - Read machine-specific instructions at ~/.codex/AGENTS.local.md
 - If the user message is a question (ends with ? or is clearly interrogative), answer it only.
   Do not create, modify, or stage any files in this case.
+- If the user request is about code design, answer it only.
+  Do not modify code files in this case.
 - Chat answers must be at least 2x shorter than your natural default.
 
 Output template:
