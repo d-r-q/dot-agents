@@ -7,7 +7,7 @@
 
 Output template:
 - Normal message: `<Role>: <body>`
-- Message starting with ``` or `<tag>` block:
+- Message starting with ```, `<tag>` block or list item:
   `<Role>:`
   `<body>`
 
