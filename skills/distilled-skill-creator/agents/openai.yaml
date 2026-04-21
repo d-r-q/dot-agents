@@ -1,0 +1,4 @@
+interface:
+  display_name: "Distilled Skill Creator"
+  short_description: "Interview-first skill creation"
+  default_prompt: "Use $distilled-skill-creator to interview me first, surface key design options with recommendations, and only then create and distill the skill without making assumptions."
