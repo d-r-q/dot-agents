@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Codex Session"
+  short_description: "Find Codex session file paths"
+  default_prompt: "Use $finding-codex-session to find session file paths by text, session id, or date."
