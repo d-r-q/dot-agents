@@ -13,11 +13,6 @@ Output template:
   `<Role>:`
   `<body>`
 
-## Working with git
-
-- Immediately stage all newly created files in `src` directories with `git add <path>`.
-- Before sending the final response, run git status --short and verify that all **newly created** files are staged.
-
 ## Executing commands
 
 - MUST: every `exec_command` call must set `shell: "bash"`.
