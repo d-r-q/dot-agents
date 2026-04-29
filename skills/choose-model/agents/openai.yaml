@@ -1,0 +1,4 @@
+interface:
+  display_name: "Choose Model"
+  short_description: "Pick a model and reasoning level"
+  default_prompt: "Use $choose-model to select the best model and reasoning effort for this task."
