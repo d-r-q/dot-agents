@@ -21,3 +21,11 @@ Output template:
 - MUST: command text must be bash-compatible; do not use zsh syntax/features.
 - If tool output shows `Command: /usr/bin/zsh -lc`, treat it as violation and immediately rerun with `shell: "bash"`.
 - In run Gradle commands use set environment variable `GRADLE_USER_HOME=./.gradle-user-home`
+
+## Efficient evidence collection
+
+- Before tool use, identify the decision to make and retrieve only facts that can affect it.
+- Prefer narrow, explicit paths and filtered output; do not run broad recursive searches from `.` when a concrete path is known.
+- For API, Kubernetes, and logs, return only decision-relevant fields, aggregates, and a few safe samples.
+- Reuse verified immutable facts within the task; re-fetch only external state that may have changed.
+- If a command returns unexpected, oversized, or schema-incompatible output, stop and issue one narrower contract-aligned request instead of retrying broadly.
