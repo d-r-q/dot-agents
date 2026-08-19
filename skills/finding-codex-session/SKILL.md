@@ -1,13 +1,12 @@
 ---
 name: finding-codex-session
-description: Find Codex session `.jsonl` files under `~/.codex/sessions/` and `~/.cache/JetBrains/IntelliJIdea*/aia/codex/sessions/` by text fragment, session id, date, or date range. Use when the user wants only matching session file paths.
+description: Find Codex session `.jsonl` files under `~/.codex/sessions/` by text fragment, session id, date, or date range. Use when the user wants only matching session file paths.
 ---
 
 # Finding Codex Session
 
 Search only these roots and skip missing ones:
 - `~/.codex/sessions/`
-- `~/.cache/JetBrains/IntelliJIdea*/aia/codex/sessions/`
 
 Ask only for missing search criteria. Accept any combination of:
 - text fragment;
