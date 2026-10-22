@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Agent Session"
+  short_description: "Поиск сессий Codex, Zed, IDEA и Koda"
+  default_prompt: "Используй $find-agent-session, чтобы найти сессии агентов по тексту, идентификатору или периоду."
