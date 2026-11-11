@@ -16,6 +16,10 @@
 
 Перед созданием, изменением или ревью Kotlin-файлов прочитай [инструкции по разработке](conventions/kotlin/development.md).
 
+## Kotest
+
+Перед написанием, изменением или ревью тестов с Kotest прочитай [соглашение о проверках Kotest](conventions/kotest-assertions.md).
+
 ## Разметка
 
 Перед написанием или изменением Markdown либо AsciiDoc прочитай [соглашение об оформлении разметки](conventions/lightweight-markup-authoring.md).
